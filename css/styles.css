@@ -1,0 +1,89 @@
+div.container {
+    background-color: rgb(255, 232, 217);
+    max-width: 100%;
+    padding-bottom: 3px;
+}
+
+.img {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+nav#header-nav.navbar.navbar-default {
+    padding: 0px;
+}
+
+button.nav-item.dropdown {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    border: none;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    background-color: white;
+}
+
+.nav-link {
+    background-color: rgb(255, 232, 217);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-link:hover, .nav-link:active {
+    background-color: thistle;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -50px;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.para-head {
+    color: rgb(241, 154, 154);
+    text-align: center;
+    size: 100px ;
+    text-transform: uppercase;
+    padding-top: 20px;
+    right: 0px;
+    left: 0px;
+}
+
+.para-text {
+    text-align: center;
+    padding: 30px 30px 0 30px ;
+
+}
+
+.col-l-1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#para-big-num2 {
+    background-color: rgb(253, 244, 238);
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+/* CHIA MAN HINH O DAY */
+
+@media (max-width: 992px) {
+    #para-big-num2 {
+            background-color: rgb(255, 210, 209);
+            margin: auto;
+            margin-top: 40px;
+            margin-left: 80px;
+            margin-right: 80px;
+            padding-bottom: 40px;
+            box-sizing: border-box;
+    } 
+}
